@@ -23,6 +23,8 @@ drewy/
 | 1. Route | **Decisions API** | `gpt-6-luna` | Fast classifier: which visual fits (photo / diagram / chart / lesson / 3D / math), does it need live web facts, how hard is it |
 | 2. Draw | **Responses API** | **Sol** `gpt-6.1-sol` | Writes the board by calling the `render_board` function. Web search is switched on only when the router says so; reasoning effort follows the router's difficulty score |
 
+Design system (colours, type, components, mascot, motion): see [DESIGN.md](DESIGN.md).
+
 Photos come from Wikipedia (no key). The board format is in `backend/board-schema.mjs` and mirrored in `android/.../data/Board.kt`.
 
 ## Run it
