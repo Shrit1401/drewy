@@ -2,7 +2,13 @@
 
 An Android AI whiteboard buddy. Draw, talk, or **snap a question with the camera** — Drewy (a fluffy cloud) answers by *drawing* on your canvas: real photos, hand-drawn diagrams, charts, worked solutions, lessons that sketch themselves while it narrates, and live 3D models you can spin and explode.
 
-Design: Figma file "Drewy — AI Canvas App Wireframes" (Design System + Screens v2 pages).
+## Demo
+
+[![Watch the Drewy demo on X](docs/demo.jpg)](https://x.com/Shrit1401/status/2118972385818993022)
+
+> made a buddy which will draw on ur phone. this weekend, i wanted to build something to help me out in my exams. it can make 3d models in realtime, also is weirdly good in physics
+>
+> — [@Shrit1401 on X](https://x.com/Shrit1401/status/2118972385818993022) · ▶ click the image to watch the video
 
 ```
 drewy/
