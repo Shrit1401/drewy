@@ -1,0 +1,35 @@
+{
+ "title": "Richest person right now",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "Elon Musk is the richest person right now, according to the latest Forbes-based rankings. His estimated fortune is about $790 billion, though that number changes with the markets.",
+   "elements": [
+    {
+     "kind": "photo",
+     "query": "Elon Musk",
+     "caption": "Elon Musk — world's richest person",
+     "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Elon_Musk_-_54820081119_%283x4_cropped%2C_Rule_of_thirds%29.jpg/960px-Elon_Musk_-_54820081119_%283x4_cropped%2C_Rule_of_thirds%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+     "sourceTitle": "Elon Musk"
+    },
+    {
+     "kind": "note",
+     "text": "≈ $790 billion",
+     "size": "xl",
+     "color": "green"
+    },
+    {
+     "kind": "note",
+     "text": "Estimated net worth • November 6, 2026",
+     "size": "m",
+     "color": "ink"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Who’s second?",
+  "How wealth is measured"
+ ]
+}

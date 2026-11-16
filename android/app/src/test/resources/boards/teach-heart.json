@@ -1,0 +1,381 @@
+{
+ "title": "How Your Heart Pumps Blood",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "Your heart is a muscular pump with four chambers. The top chambers receive blood, and the bottom chambers pump it out.",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "Four chambers, two sides",
+     "paths": [
+      {
+       "d": "M 65,40 Q 35,85 70,155 Q 150,200 230,155 Q 265,85 235,40 Q 195,15 150,45 Q 105,15 65,40 Z",
+       "color": "ink"
+      },
+      {
+       "d": "M 150,45 L 150,175",
+       "color": "ink"
+      },
+      {
+       "d": "M 52,95 L 245,95",
+       "color": "ink"
+      }
+     ],
+     "labels": [
+      {
+       "text": "RIGHT heart",
+       "x": 53,
+       "y": 16
+      },
+      {
+       "text": "LEFT heart",
+       "x": 170,
+       "y": 16
+      },
+      {
+       "text": "atrium",
+       "x": 75,
+       "y": 72
+      },
+      {
+       "text": "atrium",
+       "x": 175,
+       "y": 72
+      },
+      {
+       "text": "ventricle",
+       "x": 66,
+       "y": 132
+      },
+      {
+       "text": "ventricle",
+       "x": 164,
+       "y": 132
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Right and left mean the person's own sides.",
+     "size": "m"
+    }
+   ]
+  },
+  {
+   "narration": "Blood returning from your body is low in oxygen. It enters the right atrium, then flows through a valve into the right ventricle.",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "Body → right atrium → right ventricle",
+     "paths": [
+      {
+       "d": "M 100,45 L 220,45 L 220,170 L 100,170 Z",
+       "color": "blue"
+      },
+      {
+       "d": "M 100,100 L 145,100 M 175,100 L 220,100",
+       "color": "ink"
+      },
+      {
+       "d": "M 145,100 L 155,112 M 175,100 L 165,112",
+       "color": "ink"
+      },
+      {
+       "d": "M 25,60 L 85,60 M 75,53 L 85,60 L 75,67",
+       "color": "blue"
+      },
+      {
+       "d": "M 160,70 L 160,90 M 153,82 L 160,90 L 167,82",
+       "color": "blue"
+      },
+      {
+       "d": "M 160,120 L 160,150 M 153,142 L 160,150 L 167,142",
+       "color": "blue"
+      }
+     ],
+     "labels": [
+      {
+       "text": "body",
+       "x": 24,
+       "y": 42
+      },
+      {
+       "text": "right atrium",
+       "x": 115,
+       "y": 35
+      },
+      {
+       "text": "right ventricle",
+       "x": 108,
+       "y": 192
+      },
+      {
+       "text": "valve",
+       "x": 230,
+       "y": 105
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Blue = low oxygen, not actually blue blood!",
+     "size": "m",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "narration": "The right ventricle squeezes blood toward your lungs. In the lungs, blood releases carbon dioxide and picks up oxygen.",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "Right ventricle → lungs",
+     "paths": [
+      {
+       "d": "M 20,130 L 98,130 L 98,180 L 20,180 Z",
+       "color": "blue"
+      },
+      {
+       "d": "M 60,120 L 60,65 L 135,65 M 125,58 L 135,65 L 125,72",
+       "color": "blue"
+      },
+      {
+       "d": "M 197,40 C 170,30 140,65 140,120 Q 145,155 185,140 L 190,65",
+       "color": "pink"
+      },
+      {
+       "d": "M 203,40 C 230,30 260,65 260,120 Q 255,155 215,140 L 210,65",
+       "color": "pink"
+      },
+      {
+       "d": "M 200,20 L 200,65 M 200,65 L 177,88 M 200,65 L 223,88",
+       "color": "ink"
+      }
+     ],
+     "labels": [
+      {
+       "text": "right ventricle",
+       "x": 8,
+       "y": 115
+      },
+      {
+       "text": "lungs",
+       "x": 180,
+       "y": 175
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Lungs: carbon dioxide out, oxygen in.",
+     "size": "l",
+     "color": "pink"
+    }
+   ]
+  },
+  {
+   "narration": "Oxygen-rich blood returns to the left atrium, then enters the left ventricle. This strong chamber pumps it around your body.",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "Lungs → left heart → body",
+     "paths": [
+      {
+       "d": "M 15,35 L 80,35 L 80,75 L 15,75 Z",
+       "color": "pink"
+      },
+      {
+       "d": "M 135,35 L 240,35 L 240,165 L 135,165 Z",
+       "color": "pink"
+      },
+      {
+       "d": "M 135,95 L 175,95 M 200,95 L 240,95",
+       "color": "ink"
+      },
+      {
+       "d": "M 175,95 L 182,106 M 200,95 L 192,106",
+       "color": "ink"
+      },
+      {
+       "d": "M 85,55 L 125,55 M 115,48 L 125,55 L 115,62",
+       "color": "pink"
+      },
+      {
+       "d": "M 187,65 L 187,85 M 180,77 L 187,85 L 194,77",
+       "color": "pink"
+      },
+      {
+       "d": "M 187,118 L 187,145 L 270,145 L 270,70 M 263,80 L 270,70 L 277,80",
+       "color": "pink"
+      }
+     ],
+     "labels": [
+      {
+       "text": "lungs",
+       "x": 25,
+       "y": 24
+      },
+      {
+       "text": "left atrium",
+       "x": 143,
+       "y": 24
+      },
+      {
+       "text": "left ventricle",
+       "x": 139,
+       "y": 188
+      },
+      {
+       "text": "body",
+       "x": 251,
+       "y": 55
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Oxygen-rich blood delivers oxygen to your body's cells.",
+     "size": "m",
+     "color": "pink"
+    }
+   ]
+  },
+  {
+   "narration": "Each heartbeat has a filling phase and a squeezing phase. The atria squeeze first, then both ventricles squeeze together; valves stop blood flowing backward.",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "Fill → squeeze → repeat",
+     "paths": [
+      {
+       "d": "M 30,55 Q 15,105 40,155 Q 75,180 110,155 Q 135,105 120,55 Z",
+       "color": "ink"
+      },
+      {
+       "d": "M 75,62 L 75,156 M 28,100 L 120,100",
+       "color": "ink"
+      },
+      {
+       "d": "M 48,25 L 48,78 M 41,68 L 48,78 L 55,68 M 99,25 L 99,78 M 92,68 L 99,78 L 106,68",
+       "color": "blue"
+      },
+      {
+       "d": "M 190,70 Q 175,110 195,145 Q 220,168 245,145 Q 265,110 250,70 Z",
+       "color": "ink"
+      },
+      {
+       "d": "M 220,75 L 220,150 M 186,105 L 253,105",
+       "color": "ink"
+      },
+      {
+       "d": "M 200,130 L 200,35 M 193,45 L 200,35 L 207,45",
+       "color": "blue"
+      },
+      {
+       "d": "M 239,130 L 239,35 M 232,45 L 239,35 L 246,45",
+       "color": "pink"
+      },
+      {
+       "d": "M 138,110 L 167,110 M 157,103 L 167,110 L 157,117",
+       "color": "ink"
+      }
+     ],
+     "labels": [
+      {
+       "text": "FILL",
+       "x": 53,
+       "y": 192
+      },
+      {
+       "text": "SQUEEZE",
+       "x": 184,
+       "y": 192
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Valves are one-way doors.",
+     "size": "l"
+    }
+   ]
+  },
+  {
+   "narration": "Put it all together: the right heart sends blood to the lungs, and the left heart sends it to the body. The loop keeps going with every heartbeat!",
+   "elements": [
+    {
+     "kind": "sketch",
+     "caption": "One continuous blood-flow loop",
+     "paths": [
+      {
+       "d": "M 30,65 L 115,65 L 115,105 L 30,105 Z",
+       "color": "blue"
+      },
+      {
+       "d": "M 175,65 L 260,65 L 260,105 L 175,105 Z",
+       "color": "pink"
+      },
+      {
+       "d": "M 118,20 L 172,20 L 172,45 L 118,45 Z",
+       "color": "ink"
+      },
+      {
+       "d": "M 118,145 L 172,145 L 172,175 L 118,175 Z",
+       "color": "ink"
+      },
+      {
+       "d": "M 72,60 L 72,32 L 110,32 M 100,25 L 110,32 L 100,39",
+       "color": "blue"
+      },
+      {
+       "d": "M 180,32 L 218,32 L 218,57 M 211,47 L 218,57 L 225,47",
+       "color": "pink"
+      },
+      {
+       "d": "M 218,113 L 218,160 L 180,160 M 190,153 L 180,160 L 190,167",
+       "color": "pink"
+      },
+      {
+       "d": "M 110,160 L 72,160 L 72,113 M 65,123 L 72,113 L 79,123",
+       "color": "blue"
+      }
+     ],
+     "labels": [
+      {
+       "text": "lungs",
+       "x": 124,
+       "y": 37
+      },
+      {
+       "text": "right heart",
+       "x": 36,
+       "y": 90
+      },
+      {
+       "text": "left heart",
+       "x": 182,
+       "y": 90
+      },
+      {
+       "text": "body",
+       "x": 126,
+       "y": 165
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "Body → right heart → lungs → left heart → body.",
+     "size": "l",
+     "color": "green"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Why does it beat?",
+  "Explain the valves",
+  "Quiz me"
+ ]
+}

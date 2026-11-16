@@ -1,0 +1,250 @@
+{
+ "title": "NumPy Arrays, Step by Step",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "A NumPy array is a grid of values you can calculate with all at once. Let’s build one in Python; its elements share a single data type.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "1. Create an array",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "math",
+     "text": "import numpy as np",
+     "why": "Import NumPy with its usual nickname"
+    },
+    {
+     "kind": "math",
+     "text": "a = np.array([2, 4, 6])",
+     "why": "Create a one-dimensional array"
+    },
+    {
+     "kind": "grid",
+     "caption": "a • three values in one dimension",
+     "cells": [
+      [
+       "2",
+       "4",
+       "6"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "narration": "Every array has a shape and a data type. Shape tells you the size of each dimension; dtype tells you how its values are stored.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "2. Inspect your array",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "math",
+     "text": "a.shape # (3,)",
+     "why": "One dimension, containing three elements"
+    },
+    {
+     "kind": "math",
+     "text": "a.ndim # 1",
+     "why": "Number of dimensions"
+    },
+    {
+     "kind": "math",
+     "text": "a.dtype # an integer dtype",
+     "why": "Exact integer width can depend on your system"
+    }
+   ]
+  },
+  {
+   "narration": "Use square brackets to pick values, starting from index zero. A slice selects a range, stopping before its end index.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "3. Select values",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "grid",
+     "caption": "Positions start at zero",
+     "cells": [
+      [
+       "index",
+       "0",
+       "1",
+       "2"
+      ],
+      [
+       "value",
+       "2",
+       "4",
+       "6"
+      ]
+     ],
+     "highlight": [
+      1,
+      1
+     ]
+    },
+    {
+     "kind": "math",
+     "text": "a[0] # 2",
+     "why": "First element"
+    },
+    {
+     "kind": "math",
+     "text": "a[1:3] # array([4, 6])",
+     "why": "Include index 1; exclude index 3"
+    }
+   ]
+  },
+  {
+   "narration": "Here’s the superpower: arithmetic works on every element without writing a loop. Multiplication with an asterisk is element by element, not matrix multiplication.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "4. Calculate element by element",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "grid",
+     "caption": "Same positions work together",
+     "cells": [
+      [
+       "a",
+       "2",
+       "4",
+       "6"
+      ],
+      [
+       "a + 10",
+       "12",
+       "14",
+       "16"
+      ],
+      [
+       "a * 2",
+       "4",
+       "8",
+       "12"
+      ],
+      [
+       "a * a",
+       "4",
+       "16",
+       "36"
+      ]
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "A single number broadcasts across the array.",
+     "size": "m",
+     "color": "pink"
+    },
+    {
+     "kind": "math",
+     "text": "a.sum() # 12",
+     "why": "Reduce all elements to one total"
+    }
+   ]
+  },
+  {
+   "narration": "Now arrange those same three values into each of two rows. This is a two-dimensional array: its shape gives rows first, then columns.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "5. Add a second dimension",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "math",
+     "text": "b = np.array([[2, 4, 6], [8, 10, 12]])",
+     "why": "Nested lists become rows"
+    },
+    {
+     "kind": "grid",
+     "caption": "b.shape is (2, 3): 2 rows × 3 columns",
+     "cells": [
+      [
+       "2",
+       "4",
+       "6"
+      ],
+      [
+       "8",
+       "10",
+       "12"
+      ]
+     ],
+     "highlight": [
+      1,
+      2
+     ]
+    },
+    {
+     "kind": "math",
+     "text": "b[1, 2] # 12",
+     "why": "Row index 1, column index 2"
+    },
+    {
+     "kind": "math",
+     "text": "b[:, 1] # array([4, 10])",
+     "why": "All rows, column index 1"
+    }
+   ]
+  },
+  {
+   "narration": "You can also keep only values that pass a test. The comparison builds a mask of True and False values, which selects matching elements.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "6. Filter with a condition",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "grid",
+     "caption": "Keep values greater than 3",
+     "cells": [
+      [
+       "a",
+       "2",
+       "4",
+       "6"
+      ],
+      [
+       "a > 3",
+       "False",
+       "True",
+       "True"
+      ]
+     ]
+    },
+    {
+     "kind": "math",
+     "text": "a[a > 3] # array([4, 6])",
+     "why": "Boolean indexing keeps the True positions"
+    },
+    {
+     "kind": "note",
+     "text": "Arrays organize values; indexing selects; arithmetic transforms; masks filter.",
+     "size": "m",
+     "color": "green"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Give me practice",
+  "Explain broadcasting",
+  "Teach reshape"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "title": "Check your quadratic working",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "Good start! Your equation is copied clearly.",
+   "elements": [
+    {
+     "kind": "check",
+     "text": "2x² − 8x + 6 = 0",
+     "verdict": "correct",
+     "why": "Starting equation."
+    }
+   ]
+  },
+  {
+   "narration": "Dividing every term by two is exactly right.",
+   "elements": [
+    {
+     "kind": "check",
+     "text": "x² − 4x + 3 = 0",
+     "verdict": "correct",
+     "why": "All terms divided by 2 correctly."
+    }
+   ]
+  },
+  {
+   "narration": "Here’s the sign slip: your brackets give positive four x, not negative four x.",
+   "elements": [
+    {
+     "kind": "check",
+     "text": "(x + 1)(x + 3) = 0",
+     "verdict": "wrong",
+     "why": "Expands to x² + 4x + 3, not x² − 4x + 3."
+    }
+   ]
+  },
+  {
+   "narration": "These values follow from your brackets, but those brackets don't match the original equation.",
+   "elements": [
+    {
+     "kind": "check",
+     "text": "x = −1, x = −3",
+     "verdict": "wrong",
+     "why": "Correct for your brackets, but not for the original equation."
+    }
+   ]
+  },
+  {
+   "narration": "Keep your divide-by-two step! Find two numbers that multiply to positive three and add to negative four, then try the brackets again.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "Fix the bracket signs, then solve again.",
+     "size": "l",
+     "color": "blue"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Give me a hint",
+  "Check my retry"
+ ],
+ "score": "2 of 4 lines right — good start!"
+}

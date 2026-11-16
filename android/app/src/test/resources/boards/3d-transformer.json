@@ -1,0 +1,233 @@
+{
+ "title": "Inside an Electrical Transformer",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "Here’s a simplified cutaway of a transformer. The iron core forms a closed loop, with two separate wire coils wrapped around its sides.",
+   "elements": [
+    {
+     "kind": "model3d",
+     "caption": "Transformer cutaway — insulation and casing hidden",
+     "parts": [
+      {
+       "name": "Iron core — top yoke",
+       "shape": "box",
+       "position": [
+        0,
+        1.2,
+        0
+       ],
+       "size": [
+        2.8,
+        0.4,
+        0.65
+       ],
+       "color": "#657583",
+       "label": true
+      },
+      {
+       "name": "Iron core — bottom yoke",
+       "shape": "box",
+       "position": [
+        0,
+        -1.2,
+        0
+       ],
+       "size": [
+        2.8,
+        0.4,
+        0.65
+       ],
+       "color": "#657583"
+      },
+      {
+       "name": "Iron core — left limb",
+       "shape": "box",
+       "position": [
+        -1.2,
+        0,
+        0
+       ],
+       "size": [
+        0.4,
+        2,
+        0.65
+       ],
+       "color": "#657583"
+      },
+      {
+       "name": "Iron core — right limb",
+       "shape": "box",
+       "position": [
+        1.2,
+        0,
+        0
+       ],
+       "size": [
+        0.4,
+        2,
+        0.65
+       ],
+       "color": "#657583"
+      },
+      {
+       "name": "Primary winding — AC input",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        -0.65,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755",
+       "label": true
+      },
+      {
+       "name": "Primary copper turn 2",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        -0.39,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755"
+      },
+      {
+       "name": "Primary copper turn 3",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        -0.13,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755"
+      },
+      {
+       "name": "Primary copper turn 4",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        0.13,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755"
+      },
+      {
+       "name": "Primary copper turn 5",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        0.39,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755"
+      },
+      {
+       "name": "Primary copper turn 6",
+       "shape": "torus",
+       "position": [
+        -1.2,
+        0.65,
+        0
+       ],
+       "size": [
+        1.05,
+        0.12
+       ],
+       "color": "#EE9755"
+      },
+      {
+       "name": "Secondary winding — AC output",
+       "shape": "torus",
+       "position": [
+        1.2,
+        -0.52,
+        0
+       ],
+       "size": [
+        1.05,
+        0.16
+       ],
+       "color": "#6BAFE8",
+       "label": true
+      },
+      {
+       "name": "Secondary copper turn 2",
+       "shape": "torus",
+       "position": [
+        1.2,
+        0,
+        0
+       ],
+       "size": [
+        1.05,
+        0.16
+       ],
+       "color": "#6BAFE8"
+      },
+      {
+       "name": "Secondary copper turn 3",
+       "shape": "torus",
+       "position": [
+        1.2,
+        0.52,
+        0
+       ],
+       "size": [
+        1.05,
+        0.16
+       ],
+       "color": "#6BAFE8"
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "AC creates changing magnetism; the second coil receives induced voltage.",
+     "size": "m",
+     "color": "blue"
+    }
+   ]
+  },
+  {
+   "narration": "The core guides changing magnetic flux between the coils, transferring energy without a direct electrical connection. Fewer turns on the output coil mean lower voltage in this example.",
+   "elements": [
+    {
+     "kind": "math",
+     "text": "V₂ / V₁ ≈ N₂ / N₁",
+     "why": "Voltage ratio follows the number of wire turns"
+    },
+    {
+     "kind": "note",
+     "text": "Illustrative turns only. Never open or touch an energized transformer.",
+     "size": "m",
+     "color": "pink"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Show magnetic flux",
+  "Why use AC?",
+  "Show power transformer"
+ ]
+}

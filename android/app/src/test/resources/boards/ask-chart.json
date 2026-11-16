@@ -1,0 +1,64 @@
+{
+ "title": "Population comparison: 2026",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "India has the largest population, followed by China, the USA, and Indonesia. Here’s a same-year comparison using rounded UN projections for July 1, 2026.",
+   "elements": [
+    {
+     "kind": "chart",
+     "caption": "Population in millions • July 1, 2026 projections",
+     "bars": [
+      {
+       "label": "India",
+       "value": 1477
+      },
+      {
+       "label": "China",
+       "value": 1413
+      },
+      {
+       "label": "USA",
+       "value": 349
+      },
+      {
+       "label": "Indonesia",
+       "value": 288
+      }
+     ]
+    },
+    {
+     "kind": "note",
+     "text": "1,000 million = 1 billion",
+     "size": "m"
+    },
+    {
+     "kind": "note",
+     "text": "Source: UN World Population Prospects 2024",
+     "size": "m"
+    }
+   ]
+  },
+  {
+   "narration": "India and China each have about four times the USA’s population. The USA has about 61 million more people than Indonesia.",
+   "elements": [
+    {
+     "kind": "note",
+     "text": "India: 1.477 billion • China: 1.413 billion",
+     "size": "l",
+     "color": "blue"
+    },
+    {
+     "kind": "note",
+     "text": "USA: 349 million • Indonesia: 288 million",
+     "size": "l",
+     "color": "pink"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Compare population growth",
+  "Show world shares"
+ ]
+}

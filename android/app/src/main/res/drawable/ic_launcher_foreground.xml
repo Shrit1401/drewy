@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drewy the cloud, centred in the 108dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:strokeColor="#2B2D6E" android:strokeWidth="2.6" android:strokeLineJoin="round"
+        android:pathData="M37,72 C27,72 24,62 30,57 C27,49 33,42 41,44 C43,35 53,31 60,36 C66,31 76,35 76,44 C84,44 88,52 84,58 C89,63 86,72 78,72 Z" />
+    <path android:fillColor="#2B2D6E" android:pathData="M45,56 a3.4,4.2 0 1,0 6.8,0 a3.4,4.2 0 1,0 -6.8,0 Z" />
+    <path android:fillColor="#2B2D6E" android:pathData="M61,56 a3.4,4.2 0 1,0 6.8,0 a3.4,4.2 0 1,0 -6.8,0 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M46.2,54.2 a1.2,1.2 0 1,0 2.4,0 a1.2,1.2 0 1,0 -2.4,0 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M62.2,54.2 a1.2,1.2 0 1,0 2.4,0 a1.2,1.2 0 1,0 -2.4,0 Z" />
+    <path android:fillColor="#FF8FBF" android:pathData="M39,62 a3.2,2 0 1,0 6.4,0 a3.2,2 0 1,0 -6.4,0 Z" />
+    <path android:fillColor="#FF8FBF" android:pathData="M67.6,62 a3.2,2 0 1,0 6.4,0 a3.2,2 0 1,0 -6.4,0 Z" />
+    <path android:strokeColor="#2B2D6E" android:strokeWidth="1.8" android:strokeLineCap="round" android:pathData="M53,63 Q56.4,66 59.8,63" />
+</vector>

@@ -1,0 +1,30 @@
+{
+ "title": "Your Solar System, Made Real",
+ "mood": "happy",
+ "steps": [
+  {
+   "narration": "Your drawing looks like the Sun and two planets along a curved orbit—a little solar system! Here’s a real view of our solar system to bring your idea to life.",
+   "elements": [
+    {
+     "kind": "photo",
+     "query": "Solar System",
+     "caption": "Our solar system: the Sun and its planets",
+     "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Solar_System_True_Color_EN.png/960px-Solar_System_True_Color_EN.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Solar_System",
+     "sourceTitle": "Solar System"
+    },
+    {
+     "kind": "note",
+     "text": "Yellow sun • blue planet • pink planet",
+     "size": "m",
+     "color": "blue"
+    }
+   ]
+  }
+ ],
+ "followUps": [
+  "Make it 3D",
+  "Label the planets",
+  "Draw more space"
+ ]
+}
